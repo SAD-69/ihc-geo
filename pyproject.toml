@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "desafio-mapas"
+version = "0.1.0"
+description = "Desafio técnico: Especialista em Python e Geoprocessamento (GIS)"
+authors = ["Seu nome e email"]
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+folium = "0.16.0"
+pandas = "2.2.2"
+numpy = "1.26.4"
+branca = "0.7.2"
+geopandas = "1.0.1"
